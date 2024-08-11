@@ -4718,3 +4718,110 @@ h6 {
     font-size: 10px;
   }
 }
+/* ===========nav bar */
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link .fa {
+  margin-right: 8px;
+}
+
+.nav-text {
+  display: inline;
+}
+
+/* Media query to hide text on smaller screens */
+@media (max-width: 768px) {
+  .nav-text {
+      display: none;
+  }
+}
+
+/* Ensuring the icon bars are visible for toggling */
+.navbar-toggler .icon-bar {
+  background-color: #fcf9f9;
+  display: block;
+  width: 22px;
+  height: 2px;
+  margin: 4px auto;
+}
+
+
+
+.header_area {
+  position: relative;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  transition: filter 0.3s ease;
+}
+
+.header_area.ripple-active {
+  filter: url(#ripple-effect); /* Apply the ripple filter when active */
+}
+
+
+
+/* ==================================================================infinity */
+
+
+
+
+/* 
+
+.kk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infinity-symbol {
+  width: 100px;
+  height: 50px;
+  stroke-dasharray: 94;  
+  stroke-dashoffset: 0;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} */
+/* ==================       contact only shoe on mobile      =============================================== */
+
+
+
+/* Hide the div on screens larger than 768px (PC) */
+.mobile-only {
+  display: none;
+}
+
+/* Show the div only on screens 768px or smaller (mobile devices) */
+@media screen and (max-width: 768px) {
+  .mobile-only {
+      display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
